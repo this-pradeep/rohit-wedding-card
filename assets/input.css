@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Cinzel:wght@400..900&family=Ephesis&family=Lavishly+Yours&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Cinzel", serif; 
+    --font-fancy:"Ephesis", cursive;
+    --font-fancy1: "Lavishly Yours", cursive;
+    --font-hindi: "Amita", serif;
+    --drop-shadow-3xl: 0 -5px 3px rgba(0, 0, 0, 0.20); 
+    --drop-shadow-card: 0px -5px 10px rgba(0, 0, 0, 0.50); 
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
